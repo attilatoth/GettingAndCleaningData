@@ -1,18 +1,13 @@
-
-Labels
-------
-
-
-Getting and Cleaning Data - Course Project Code Book
-========
+# Getting and Cleaning Data
+## Course Project Code Book
 ### Input files and required information
 Source data can be found at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Description of the data is at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Project description
+### Project description
 
-The `run_analysis.R` R script cleans up the data by:
+The `run_analysis.R` script cleans up the data by:
 
 * merging the training and test sets to create one data set, namely `train/X_train.txt` with `test/X_test.txt`, `train/subject_train.txt` with `test/subject_test.txt`, and `train/y_train.txt` with `test/y_test.txt`.
 
