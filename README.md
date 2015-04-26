@@ -1,20 +1,19 @@
----
-title: "README"
-output: html_document
----
+# Getting and cleaning data
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Course project README file
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project.
 
-```{r}
-summary(cars)
-```
+### Prerequisites:
+Download and unpack the following file to the directory where the `run_analyis.R` script resides:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-You can also embed plots, for example:
+### Processing data
+1.   set current working directory to the parent directory of `run_analyis.R`.
+1.   Execute `run_analyis.R`.
 
-```{r, echo=FALSE}
-plot(cars)
-```
+### Outputs
+There are two output files:
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+*   `clean_data.txt`
+*   `clean_data_with_average.txt`
